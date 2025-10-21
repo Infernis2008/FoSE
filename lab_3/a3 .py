@@ -7,7 +7,7 @@ else:
     vol = current + 10000 - previous
 
 if vol <= 300:
-    price = 21.0
+    price = 21
 elif vol <= 600:
     price = 21 + (vol - 300) * 0.06
 elif vol <= 800:
@@ -21,4 +21,5 @@ print(f"Предыдущее: {current}")
 print(f"Текущее: {previous}")
 print(f"Испольщовано: {vol} m^3")
 print(f"К оплате: {price:.2f}$")
+
 print(f"Средняя цена за кубометр: {avg_price:.2f}$")

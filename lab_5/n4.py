@@ -107,4 +107,4 @@ def process_all(student_name="Your Name"):
             out.write("--------------------------------------------------------------------------\n")
             op_number += 1
 
-process_all(student_name="Никита")
+process_all(student_name="Паша")
